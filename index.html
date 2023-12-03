@@ -3,51 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jumia Orders</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="style.css">
+  <title>Jumia Page</title>
 </head>
 <body>
-  <header class="header">
-    <h1>Jumia Orders</h1>
-  </header>
-  <main>
-    <div class="orders">
-      <h2>Open Orders (6)</h2>
-      <ul>
-        <li>
-          <a href="#">
-            <span class="order-number">Order #3074489</span>
-            <span class="order-items">shoes</span>
-            <span class="order-status">DELIVERED</span>
-            <span class="order-date">On 04-04-2023</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="order-number">Order #306459655</span>
-            <span class="order-items">Jeans</span>
-            <span class="order-status">DELIVERED</span>
-            <span class="order-date">On 27-03-2023</span>
-          </a>
-        </li>
-        </ul>
+  <div class="head">
+    <div class="head1">
+      <a href="#" style="color: darkorange;">Sell on Jumia&nbsp; <i class="fa-solid fa-star"></i></a>
+      <a href="#" style="width: max-content; margin-left: auto; margin-right: auto;">JUMIA<i class="fa-solid fa-star" style="color: darkorange;"></i>&nbsp; FOOD<i class="fa-solid fa-burger"></i>&nbsp; PAY<i class="fa-brands fa-cc-mastercard"></i>&nbsp; <i class="fa-regular fa-star-half-stroke"></i>FORCE</a>
     </div>
-    <div class="orders">
-      <h2>Closed Orders (11)</h2>
-      <ul>
-        <li>
-          <a href="#">
-            <span class="order-number">Order #30462775</span>
-            <span class="order-items">bags</span>
-            <span class="order-status">CANCELLED</span>
-            <span class="order-date">On 20-03-2023</span>
-          </a>
-        </li>
-        </ul>
+    <div class="head2">
+      <i class="fa-solid fa-bars"></i>
+      <h3 style="font-size: 30px;">JUMIA <i class="fa-solid fa-star" style="color: darkorange;"></i></h3>
+      <input type="search" name="search" id="search-jumia" placeholder="Search products, brands and categories">
+      <input type="button" value="SEARCH" id="button-jumia">
+      <a href="#"><i class="fa-solid fa-circle-user"></i> Hi, Eva <i class="fa-solid fa-chevron-down"></i></a>
+      <a href="#"><i class="fa-solid fa-circle-question"></i> Help <i class="fa-solid fa-chevron-down"></i></a>
+      <a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
     </div>
-  </main>
-  <footer class="footer">
-    <p>&copy; 2023 Jumia</p>
-  </footer>
+  </div>
+  <div class="jumia-desc">
+    <div class="jumia-acc">
+      <a class="acc-links" href="#"><i class="fa-solid fa-user"></i> My Jumia Account</a>
+      <a class="acc-links" href="#" style="background-color: grey;"><i class="fa-solid fa-box"></i> Orders</a>
+      <a class="acc-links" href="#"><i class="fa-regular fa-envelope"></i> Inbox</a>
+      <a class="acc-links" href="#"><i class="fa-regular fa-message"></i> Pending Reviews</a>
+      <a class="acc-links" href="#"><i class="fa-solid fa-ticket"></i> Vouchers</a>
+      <a class="acc-links" href="#"><i class="fa-regular fa-heart"></i> Saved Items</a>
+      <a class="acc-links" href="#"><i class="fa-solid fa-clock"></i> Recently Viewed</a>
+      <a class="acc-links" href="#">Account Management</a>
+      <a class="acc-links" href="#">Address Book</a>
+      <a class="acc-links" href="#">Newsletter Preferences</a>
+    </div>
+    <div class="jumia-shop">
+      <h3>Orders</h3>
+      <a href="#">OPEN ORDERS (22)</a> <a href="#">CLOSED ORDERS (4)</a>
+      <div class="good">
+        <img src="bag.jpg" alt="" style="width: 100px; height: 100px;">
+        <div class="desc">
+          <h4>5 Piece Diaper Bag - Purple</h4>
+          <div style="display: flex; flex-direction: column;">
+            <a href="#">Order 302132791</a>
+            <a href="#" style="background-color: limegreen; color: white; padding: 5px; width: max-content;">DELIVERED</a>
+            <a href="#">On 04-09</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="good">
+        <img src="stands.jpg" alt="" style="width: 100px; height: 100px;">
+        <div class="desc">
+          <h4>Metal Foldable Adjustible Stand For Laptop - Silver</h4>
+          <div style="display: flex; flex-direction: column;">
+            <a href="#">Qty: 2</a>
+            <a href="#">Order 305397561</a>
+            <a href="#" style="background-color: limegreen; color: white; padding: 5px; width: max-content;">DELIVERED</a>
+            <a href="#">On 04-09</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

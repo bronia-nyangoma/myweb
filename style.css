@@ -1,77 +1,61 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.header {
-  background-color: orange;
-  color: #fff;
-  padding: 20px;
-}
-
-.header h1 {
-  font-size: 24px;
-  text-align: center;
-}
-
-.orders {
-  margin: 20px;
-}
-
-.orders h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.orders ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.orders li {
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ccc;
+head
+{
   padding: 10px;
 }
 
-.orders li a {
-  color: #333;
+.head1{
+  display: flex;
+}
+
+.head2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+#search-jumia{
+  padding: 10px;
+  width: 450px;
+}
+
+#button-jumia{
+  padding: 10px;
+  background-color: darkorange;
+  color: white;
+  border: none;
+}
+
+a{
   text-decoration: none;
+  color: black;
 }
 
-.orders li a:hover {
-  text-decoration: underline;
+.jumia-acc{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
 }
 
-.order-number {
-  font-weight: bold;
+.acc-links{
+  padding: 10px;
 }
 
-.order-items {
-  display: block;
-  margin-top: 5px;
+.good{
+  display: flex;
 }
 
-.order-status {
-  display: block;
-  margin-top: 5px;
-  text-transform: uppercase;
+.desc
+{
+  padding: 10px;
 }
 
-.order-date {
-  display: block;
-  margin-top: 5px;
-  color: #ccc;
+.jumia-desc
+{
+  display: flex;
+  justify-content: space-around;
 }
 
-.footer {
-  background-color: orange;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.footer p {
-  font-size: 14px;
+.jumia-shop{
+  width: 65%;
 }
